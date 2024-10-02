@@ -1,30 +1,32 @@
-Learning Goals
+# Learning Goals
 Build a functioning to-do list application
 Suppress a default action with event.preventDefault()
-Introduction
+
+# Introduction
 In this lab, you'll be creating a simple to-do list application that uses JavaScript to manipulate the DOM.
 
 Check out the working demoLinks to an external site.!
 
-Lab: Build a Functioning To-Do List Application
+# Lab: Build a Functioning To-Do List Application
 Instead of relying on tests, this lab is deliverable driven. You will be responsible for ensuring that your solution works as intended by testing the behavior in the browser.
 
-Fork and clone this repository
+# Fork and clone this repository
 Open index.html in Chrome
 Put your JavaScript knowledge to the test and work your way through the deliverables
 Once you're done, be sure to commit and push your code up to GitHub, then submit the assignment using CodeGrade. Even though this lab does not have tests, it must still be submitted through CodeGrade in order to be marked as complete in Canvas.
 
-Structuring Your Code
+# Structuring Your Code
 You've been provided with a basic HTML file, as well as an index.js file where you can implement your solution. Note that the index.js file is contained within a src folder — this is a common pattern that you will see in many labs moving forward. If you take a look at the index.html file, you'll see that the script tag that loads the code file includes the src directory in its path:
 
 <script src="./src/index.js"></script>
-Deliverables
+
+# Deliverables
 As a user, I should be able to type a task into the input field.
 As a user, I should be able to click some form of a submit button.
 As a user, I expect to see the task string that I provided appear in the DOM after the submit button has been activated.
 Note: While the exampleLinks to an external site. shows one possible working implementation of the TaskLister app, yours can (and is encouraged to!) look however you like!
 
-HTML Forms
+# HTML Forms
 For this lab, we are going to be using the HTML <form> elementLinks to an external site. to capture the tasks the user enters. HTML forms can be quite complex and sophisticated but, at their most basic, consist of opening and closing <form> tags that enclose one or more <input> elements where users can enter information, and a way to submit the form. There are many types of input fieldsLinks to an external site. to choose from; we use the type attribute to specify the one we want. For this lab, we are using two: a text field (type="text") and a submit button (type="submit").
 
 If you look in the index.html file, you will see the following:
@@ -62,7 +64,7 @@ The deliverables for this lab require you to use JavaScript to handle the clicki
 
 Take a look at the MDN Documentation on Event.preventDefault()Links to an external site.. You'll see how JavaScript is used to prevent a form element (checkbox) from doing its default behavior (appearing checked upon click). You'll want to prevent submit from doing its default behavior in a similar fashion.
 
-Stretch Deliverables
+# Stretch Deliverables
 Once you've got the required deliverables working, you may want to try to implement one or more of the following:
 
 A delete function that will remove tasks from your list
