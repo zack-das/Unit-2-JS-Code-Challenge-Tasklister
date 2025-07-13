@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (taskDescription.trim() !== "") {
       const newTask = new TaskListItem(taskDescription, priority, dueDate);
       taskList.addTask(newTask);
-      renderApp();
+      renderApp();   
       form.reset(); 
     }
   });     
