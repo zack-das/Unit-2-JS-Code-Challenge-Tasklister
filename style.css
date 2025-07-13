@@ -35,3 +35,41 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+#create-task-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#create-task-form label {
+  font-weight: bold;
+}
+
+#list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
