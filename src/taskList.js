@@ -11,7 +11,7 @@ class TaskList {
 
   deleteTask(id) {
     this.tasks = this.tasks.filter(task => task.id !== id);
-  }
+  }    
 
   render() {
     const taskItems = this.tasks.map(task => task.render()).join("");

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderApp();
       form.reset(); 
     }
-  });
+  });     
 
 
   listContainer.addEventListener("click", function(e) {
